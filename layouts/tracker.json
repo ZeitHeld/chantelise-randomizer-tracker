@@ -1,0 +1,22 @@
+{
+	"tracker_default": {
+		"type": "dock",
+		"content": [
+			{
+				"type": "layout",
+				"key": "items_only",
+				"dock": "left",
+				"width": 300
+			},
+			{
+				"type": "map",
+				"key": "maps",
+				"dock": "right"
+			},
+			{
+				"type": "recentpins",
+				"dock": "bottom"
+			}
+		]
+	}
+}

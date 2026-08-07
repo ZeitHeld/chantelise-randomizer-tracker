@@ -1,0 +1,45 @@
+[
+	{
+		"name": "Town",
+		"sections": [
+			{
+				"name": "Ask the Townfolk",
+				"short_name": "Ask Town"
+			},
+			{
+				"name": "Confront the Fortune Teller",
+				"short_name": "Elma: Post Terran",
+				"item_count": 3,
+				"access_rules": ["boss_flag_terran"]
+			},
+			{
+				"name": "Hospitalize Elise at Aira's",
+				"short_name": "Sick Elise",
+				"item_count": 2,
+				"access_rules": ["boss_flag_ignan"]
+			},
+			{
+				"name": "Deliver the Blue Rose",
+				"short_name": "Give Blue Rose",
+				"access_rules": ["boss_flag_aquan"]
+			},
+			{
+				"name": "Observe the Blood Moon",
+				"short_name": "Blood Moon",
+				"access_rules": ["boss_flag_zephyran"]
+			},
+			{
+				"name": "Report to Aira",
+				"short_name": "Aira: Post Zephyran",
+				"access_rules": ["boss_flag_zephyran"]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "world",
+				"x": 525,
+				"y": 285
+			}
+		]
+	}
+]

@@ -1,0 +1,7 @@
+{
+	"world_map": {
+		"type": "map",
+		"maps": ["world_map"],
+		"orientation": "horizontal"
+	}
+}

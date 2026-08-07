@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Terran Ruins",
+        "type": "toggle",
+        "img": "images/items/dungeon/terran.png",
+        "codes": "dungeon_terran"
+    },
+    {
+        "name": "Ignan Ruins",
+        "type": "toggle",
+        "img": "images/items/dungeon/ignan.png",
+        "codes": "dungeon_ignan"
+    },
+    {
+        "name": "Aquan Ruins",
+        "type": "toggle",
+        "img": "images/items/dungeon/aquan.png",
+        "codes": "dungeon_aquan"
+    },
+    {
+        "name": "Zephyran Ruins",
+        "type": "toggle",
+        "img": "images/items/dungeon/zephyran.png",
+        "codes": "dungeon_zephyran"
+    },
+    {
+        "name": "Sealed Palace",
+        "type": "toggle",
+        "img": "images/items/dungeon/palace.png",
+        "codes": "dungeon_palace"
+    },
+    {
+        "name": "Familiar Forest",
+        "type": "progressive_toggle",
+        "stages": [
+            { "img": "images/items/dungeon/forest.png", "codes": "dungeon_forest" },
+            { "img": "images/items/dungeon/forest_full.png", "codes": "dungeon_forest_full" }
+        ]
+    },
+    {
+        "name": "Survival Dungeon",
+        "type": "toggle",
+        "img": "images/items/dungeon/survival.png",
+        "codes": "dungeon_survival"
+    }
+]

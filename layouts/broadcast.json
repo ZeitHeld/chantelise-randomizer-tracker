@@ -1,0 +1,16 @@
+{
+	"item_dungeons": {
+		"type": "container",
+		"content": {
+			"type": "itemgrid",
+			"rows": [
+				[
+					"dungeon_terran", "dungeon_aquan", "dungeon_ignan", "dungeon_zephyran"
+				],
+				[
+					"dungeon_palace", "dungeon_forest", "dungeon_survival"
+				]
+			]
+		}
+	}
+}

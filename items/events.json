@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Beat Terran Golem",
+        "type": "static",
+        "img": "images/items/boss/golem.png",
+        "disabled_img": "images/items/boss/golem_dead.png",
+        "codes": "boss_flag_terran"
+    },
+    {
+        "name": "Beat Volcanicrab",
+        "type": "static",
+        "img": "images/items/boss/crab.png",
+        "disabled_img": "images/items/boss/crab_dead.png",
+        "codes": "boss_flag_ignan"
+    },
+    {
+        "name": "Beat Electrojelly",
+        "type": "static",
+        "img": "images/items/boss/jellyfish.png",
+        "disabled_img": "images/items/boss/jellyfish_dead.png",
+        "codes": "boss_flag_aquan"
+    },
+    {
+        "name": "Beat Aeolian Wyvern",
+        "type": "static",
+        "img": "images/items/boss/wyvern.png",
+        "disabled_img": "images/items/boss/wyvern_dead.png",
+        "codes": "boss_flag_zephyran"
+    },
+    {
+        "name": "Beat The Forgotten Archdevil",
+        "type": "static",
+        "img": "images/items/boss/devil.png",
+        "disabled_img": "images/items/boss/devil_dead.png",
+        "codes": "boss_flag_palace"
+    }
+]
