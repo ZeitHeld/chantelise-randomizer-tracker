@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Progressive Terran Ruins Stage",
+        "type": "progressive",
+        "stages": [
+            {"img": "images/stages/tr1.png", "codes": "terran_stage:1"},
+            {"img": "images/stages/tr2.png", "codes": "terran_stage:2"},
+            {"img": "images/stages/tr1.png", "codes": "terran_stage:3"},
+            {"img": "images/stages/tr4.png", "codes": "terran_stage:4"},
+            {"img": "images/stages/tr5.png", "codes": "terran_stage:5"},
+            {"img": "images/stages/tr6.png", "codes": "terran_stage:6,terran_boss_stage"},
+            {"img": "images/stages/tr7.png", "codes": "terran_stage:7,terran_bonus_stage"}
+        ]
+    },
+    {
+        "name": "Progressive Ignan Ruins Stage",
+        "type": "progressive",
+        "stages": [
+            {"img": "images/stages/ir1.png", "codes": "ignan_stage:1"},
+            {"img": "images/stages/ir2.png", "codes": "ignan_stage:2"},
+            {"img": "images/stages/ir3.png", "codes": "ignan_stage:3"},
+            {"img": "images/stages/ir4.png", "codes": "ignan_stage:4"},
+            {"img": "images/stages/ir5.png", "codes": "ignan_stage:5"},
+            {"img": "images/stages/ir6.png", "codes": "ignan_stage:6,ignan_boss_stage"},
+            {"img": "images/stages/tr7.png", "codes": "ignan_stage:7,ignan_bonus_stage"}
+        ]
+    },
+    {
+        "name": "Progressive Aquan Ruins Stage",
+        "type": "progressive",
+        "stages": [
+            {"img": "images/stages/ar1.png", "codes": "aquan_stage:1"},
+            {"img": "images/stages/ar2.png", "codes": "aquan_stage:2"},
+            {"img": "images/stages/ar3.png", "codes": "aquan_stage:3"},
+            {"img": "images/stages/ar4.png", "codes": "aquan_stage:4"},
+            {"img": "images/stages/ar5.png", "codes": "aquan_stage:5"},
+            {"img": "images/stages/ar6.png", "codes": "aquan_stage:6,aquan_boss_stage"},
+            {"img": "images/stages/ar7.png", "codes": "aquan_stage:7,aquan_bonus_stage"}
+        ]
+    },
+    {
+        "name": "Progressive Zephyran Ruins Stage",
+        "type": "progressive",
+        "stages": [
+            {"img": "images/stages/tr1.png", "codes": "zephyran_stage:1"},
+            {"img": "images/stages/tr1.png", "codes": "zephyran_stage:2"},
+            {"img": "images/stages/tr1.png", "codes": "zephyran_stage:3"},
+            {"img": "images/stages/tr1.png", "codes": "zephyran_stage:4"},
+            {"img": "images/stages/tr1.png", "codes": "zephyran_stage:5"},
+            {"img": "images/stages/tr1.png", "codes": "zephyran_stage:6,zephyran_boss_stage"},
+            {"img": "images/stages/tr1.png", "codes": "zephyran_stage:7,zephyran_bonus_stage"}
+        ]
+    },
+    {
+        "name": "Progressive Sealed Palace Stage",
+        "type": "progressive",
+        "stages": [
+            {"img": "images/stages/sp1.png", "codes": "palace_stage:1"},
+            {"img": "images/stages/sp2.png", "codes": "palace_stage:2"},
+            {"img": "images/stages/sp3.png", "codes": "palace_stage:3"},
+            {"img": "images/stages/sp4.png", "codes": "palace_stage:4"},
+            {"img": "images/stages/sp5.png", "codes": "palace_stage:5"},
+            {"img": "images/stages/sp6.png", "codes": "palace_stage:6,palace_boss_stage"},
+            {"img": "images/stages/sp7.png", "codes": "palace_stage:7,palace_bonus_stage"}
+        ]
+    },
+    {
+        "name": "Progressive Familiar Forest Stage",
+        "type": "progressive",
+        "stages": [
+            {"img": "images/stages/ff1.png", "codes": "forest_stage:1"},
+            {"img": "images/stages/ff2.png", "codes": "forest_stage:2"},
+            {"img": "images/stages/ff3.png", "codes": "forest_stage:3"},
+            {"img": "images/stages/ff4.png", "codes": "forest_stage:4,forest_boss_stage"}
+        ]
+    },
+    {
+        "name": "Progressive Survival Dungeon Floor",
+        "type": "progressive",
+        "stages": [
+            {"img": "images/stages/sd10.png", "codes": "survival_stage:1"},
+            {"img": "images/stages/sd20.png", "codes": "survival_stage:2"},
+            {"img": "images/stages/sd30.png", "codes": "survival_stage:3"},
+            {"img": "images/stages/sd40.png", "codes": "survival_stage:4"},
+            {"img": "images/stages/sd50.png", "codes": "survival_stage:5"},
+            {"img": "images/stages/sd60.png", "codes": "survival_stage:6,survival_boss_stage"}
+        ]
+    },
+    {
+        "name": "TR 1 Stage",
+        "type": "toggle",
+        "img": "images/stages/tr1.png",
+        "codes": "tr1,terran1"
+    }
+]

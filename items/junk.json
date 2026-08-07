@@ -1,0 +1,86 @@
+[
+	{
+		"name": "Unthankful Statue",
+		"type": "consumable",
+		"img": "images/items/treasures/treasure1.png",
+		"codes": "treasure,junk,trash,filler"
+	},
+	{
+		"name": "Treasure 2",
+		"type": "consumable",
+		"img": "images/items/treasures/treasure2.png",
+		"codes": "treasure,junk,trash,filler"
+	},
+	{
+		"name": "Treasure 3",
+		"type": "consumable",
+		"img": "images/items/treasures/treasure3.png",
+		"codes": "treasure,junk,trash,filler"
+	},
+	{
+		"name": "Treasure 4",
+		"type": "consumable",
+		"img": "images/items/treasures/treasure4.png",
+		"codes": "treasure,junk,trash,filler"
+	},
+	{
+		"name": "Treasure 5",
+		"type": "consumable",
+		"img": "images/items/treasures/treasure5.png",
+		"codes": "treasure,junk,trash,filler"
+	},
+	{
+		"name": "Treasure 6",
+		"type": "consumable",
+		"img": "images/items/treasures/treasure6.png",
+		"codes": "treasure,junk,trash,filler"
+	},
+	{
+		"name": "Walnut Bread",
+		"type": "consumable",
+		"img": "images/items/food/bread.png",
+		"codes": "food,junk,trash,filler"
+	},
+	{
+		"name": "Egg Toast",
+		"type": "consumable",
+		"img": "images/items/food/eggtoast.png",
+		"codes": "food,junk,trash,filler"
+	},
+	{
+		"name": "Roast Chicken",
+		"type": "consumable",
+		"img": "images/items/food/chicken.png",
+		"codes": "food,junk,trash,filler"
+	},
+	{
+		"name": "Ham Sandwich",
+		"type": "consumable",
+		"img": "images/items/food/sandwich.png",
+		"codes": "food,junk,trash,filler"
+	},
+	{
+		"name": "Useful AP Item",
+		"type": "static",
+		"img": "images/items/ap.png",
+		"codes": "ap"
+	},
+	{
+		"name": "Progression AP Item",
+		"type": "static",
+		"img": "images/items/ap_prog.png",
+		"codes": "ap"
+	},
+	{
+		"name": "Junk AP Item",
+		"type": "static",
+		"img": "images/items/ap_junk.png",
+		"codes": "ap"
+	},
+	{
+		"name": "AP Item Trap",
+		"type": "static",
+		"img": "images/items/ap_trap.png",
+		"codes": "ap"
+	}
+]

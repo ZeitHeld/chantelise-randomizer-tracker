@@ -1,36 +1,41 @@
 {
-  "json.schemas": [
-    {
-      "fileMatch": [
-        "items.json",
-        "items/**/*.json"
-      ],
-      "url": "https://raw.githubusercontent.com/EmoTracker-Community/EmoTracker-Service/main/sdk/schema/items.json"
-    },
-    {
-      "fileMatch": [
-        "locations.json",
-        "locations/**/*.json"
-      ],
-      "url": "https://raw.githubusercontent.com/EmoTracker-Community/EmoTracker-Service/main/sdk/schema/locations.json"
-    },
-    {
-      "fileMatch": [
-        "layouts.json",
-        "layouts/**/*.json"
-      ],
-      "url": "https://raw.githubusercontent.com/EmoTracker-Community/EmoTracker-Service/main/sdk/schema/layouts.json"
-    },
-    {
-      "fileMatch": [ "manifest.json" ],
-      "url": "https://raw.githubusercontent.com/EmoTracker-Community/EmoTracker-Service/main/sdk/schema/manifest.json"
-    },
-    {
-      "fileMatch": [ ".vscode/settings.json" ],
-      "url": "https://raw.githubusercontent.com/EmoTracker-Community/EmoTracker-Service/refs/heads/main/sdk/schema/settings.json"
-    }
-  ],
-  "disabled_image_filter": "grayscale, dim",
-  "chest_opened_img": "image/chest_open.png",
-  "chest_unopened_img": "image/chest_Closed.png"
+	"json.schemas": [
+		{
+			"fileMatch": [
+				"items.json",
+				"items/**/*.json"
+			],
+			"url": "https://raw.githubusercontent.com/EmoTracker-Community/EmoTracker-Service/main/sdk/schema/items.json"
+		},
+		{
+			"fileMatch": [
+				"locations.json",
+				"locations/**/*.json"
+			],
+			"url": "https://raw.githubusercontent.com/EmoTracker-Community/EmoTracker-Service/main/sdk/schema/locations.json"
+		},
+		{
+			"fileMatch": [
+				"layouts.json",
+				"layouts/**/*.json"
+			],
+			"url": "https://raw.githubusercontent.com/EmoTracker-Community/EmoTracker-Service/main/sdk/schema/layouts.json"
+		},
+		{
+			"fileMatch": [
+				"manifest.json"
+			],
+			"url": "https://raw.githubusercontent.com/EmoTracker-Community/EmoTracker-Service/main/sdk/schema/manifest.json"
+		},
+		{
+			"fileMatch": [
+				".vscode/settings.json"
+			],
+			"url": "https://raw.githubusercontent.com/EmoTracker-Community/EmoTracker-Service/refs/heads/main/sdk/schema/settings.json"
+		}
+	],
+	"disabled_image_filter": "grayscale, dim",
+	"chest_opened_img": "image/chest_open.png",
+	"chest_unopened_img": "image/chest_Closed.png",
+	"enable_accessibility_rule_caching": true
 }

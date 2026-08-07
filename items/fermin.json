@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Ferromin",
+        "type": "consumable",
+        "img": "images/items/ferromin/fermin1.png",
+        "codes": "extra_hp:10"
+    },
+    {
+        "name": "Ferromin G",
+        "type": "consumable",
+        "img": "images/items/ferromin/fermin2.png",
+        "codes": "extra_hp:12"
+    },
+    {
+        "name": "Ferromin FX",
+        "type": "consumable",
+        "img": "images/items/ferromin/fermin3.png",
+        "codes": "extra_hp:14"
+    },
+    {
+        "name": "Ferromin R",
+        "type": "consumable",
+        "img": "images/items/ferromin/fermin4.png",
+        "codes": "extra_hp:16"
+    },
+    {
+        "name": "Ferromin S",
+        "type": "consumable",
+        "img": "images/items/ferromin/fermin5.png",
+        "codes": "extra_hp:18"
+    },
+    {
+        "name": "Ferromin L",
+        "type": "consumable",
+        "img": "images/items/ferromin/fermin6.png",
+        "codes": "extra_hp:20"
+    },
+    {
+        "name": "Omega Ferromin",
+        "type": "consumable",
+        "img": "images/items/ferromin/fermin7.png",
+        "codes": "extra_hp:22"
+    }
+]

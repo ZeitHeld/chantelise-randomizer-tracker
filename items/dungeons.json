@@ -34,7 +34,7 @@
         "type": "progressive_toggle",
         "stages": [
             { "img": "images/items/dungeon/forest.png", "codes": "dungeon_forest" },
-            { "img": "images/items/dungeon/forest_full.png", "codes": "dungeon_forest_full" }
+            { "img": "images/items/dungeon/forest_full.png", "codes": "dungeon_forest,dungeon_forest_full" }
         ]
     },
     {
