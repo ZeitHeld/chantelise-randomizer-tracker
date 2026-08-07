@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Terran Ruins",
+        "short_name": "TR-A",
+        "sections": [
+            {
+                "name": "TR 1 Stage - Hidden Treasure",
+                "short_name": "TR1-HidChest",
+                "access_rules": [
+                    "tr1",
+                    "terran_stage:1"
+                ]
+            },
+            {
+                "name": "TR 2 Stage - Hidden Treasure",
+                "short_name": "TR2-HidChest",
+                "access_rules": [
+                    "tr2",
+                    "terran_stage:2"
+                ]
+            },
+            {
+                "name": "TR 3 Stage - Hidden Treasure",
+                "short_name": "TR3-HidChest",
+                "access_rules": [
+                    "tr3",
+                    "terran_stage:3"
+                ]
+            },
+            {
+                "name": "TR 4 Stage - Hidden Treasure",
+                "short_name": "TR4-HidChest",
+                "access_rules": [
+                    "tr4",
+                    "terran_stage:4"
+                ]
+            }
+        ],
+        "access_rules": ["dungeon_terran", "prog_dungeons:1"],
+        "map_locations": [
+            {
+                "map": "world_map",
+                "x": 275,
+                "y": 320
+            }
+        ]
+    }
+]

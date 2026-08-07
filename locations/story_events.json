@@ -4,7 +4,8 @@
 		"sections": [
 			{
 				"name": "Ask the Townfolk",
-				"short_name": "Ask Town"
+				"short_name": "Ask Town",
+				"item_count": 1
 			},
 			{
 				"name": "Confront the Fortune Teller",
@@ -21,22 +22,25 @@
 			{
 				"name": "Deliver the Blue Rose",
 				"short_name": "Give Blue Rose",
+				"item_count": 1,
 				"access_rules": ["boss_flag_aquan"]
 			},
 			{
 				"name": "Observe the Blood Moon",
 				"short_name": "Blood Moon",
+				"item_count": 1,
 				"access_rules": ["boss_flag_zephyran"]
 			},
 			{
 				"name": "Report to Aira",
 				"short_name": "Aira: Post Zephyran",
+				"item_count": 1,
 				"access_rules": ["boss_flag_zephyran"]
 			}
 		],
 		"map_locations": [
 			{
-				"map": "world",
+				"map": "world_map",
 				"x": 525,
 				"y": 285
 			}

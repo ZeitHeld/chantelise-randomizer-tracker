@@ -62,7 +62,7 @@
 	{
 		"name": "Useful AP Item",
 		"type": "static",
-		"img": "images/items/ap.png",
+		"img": "images/items/ap_useful.png",
 		"codes": "ap"
 	},
 	{

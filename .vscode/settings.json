@@ -36,6 +36,6 @@
 	],
 	"disabled_image_filter": "grayscale, dim",
 	"chest_opened_img": "image/chest_open.png",
-	"chest_unopened_img": "image/chest_Closed.png",
+	"chest_unopened_img": "image/chest_closed.png",
 	"enable_accessibility_rule_caching": true
 }
