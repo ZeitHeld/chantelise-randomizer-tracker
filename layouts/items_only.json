@@ -1,13 +1,21 @@
 {
 	"item_dungeons": {
-		"type": "itemgrid",
-		"rows": [
-			[
-				"dungeon_terran", "dungeon_aquan", "dungeon_ignan", "dungeon_zephyran"
-			],
-			[
-				"dungeon_palace", "dungeon_forest", "dungeon_survival"
-			]
+		"type": "dock",
+		"dock": "left",
+		"content": [
+			{
+				"type": "itemgrid",
+				"item_size": 32,
+				"item_margin": "5, 5",
+				"rows": [
+					[
+						"dungeon_terran", "dungeon_aquan", "dungeon_ignan", "dungeon_zephyran"
+					],
+					[
+						"dungeon_palace", "dungeon_forest", "dungeon_survival"
+					]
+				]
+			}
 		]
 	}
 }

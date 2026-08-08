@@ -1,18 +1,19 @@
 {
-    "name": "Chantelise Randomizer Tracker",
-    "uid": "chantelise_heldderzeit",
-    "version": "1.0.0",
-    "game_name": "Chantelise - A Tale of Two Sisters",
-    "author": "Held_der_Zeit",
-    "variants": {
-        "tracker": {
-            "display_name": "Full Tracker"
-        },
-        "items_only": {
-            "display_name": "Items Only"
-        },
-        "items_map": {
-            "display_name": "Item & Map Tracker"
-        }
-    }
+	"name": "Chantelise Randomizer Tracker",
+	"uid": "chantelise_tracker_heldderzeit",
+	"package_uid": "chantelise_tracker_heldderzeit",
+	"version": "1.0.0",
+	"package_version": "1.0.0",
+	"game_name": "Chantelise - A Tale of Two Sisters",
+	"author": "Held_der_Zeit",
+	"variants": {
+		"tracker": {
+			"display_name": "Item & Map Tracker",
+			"flags": ["ap"]
+		},
+		"items_only": {
+			"display_name": "Items Only",
+			"flags": ["ap"]
+		}
+	}
 }
