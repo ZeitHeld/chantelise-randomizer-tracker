@@ -1,0 +1,26 @@
+{
+	"tracker_default": {
+		"type": "container",
+		"content": [
+			{
+				"type": "dock",
+				"content": [
+					{
+						"type": "layout",
+						"key": "item_dungeons",
+						"dock": "left"
+					},
+					{
+						"type": "map",
+						"key": "maps",
+						"dock": "right"
+					},
+					{
+						"type": "recentpins",
+						"dock": "bottom"
+					}
+				]
+			}
+		]
+	}
+}

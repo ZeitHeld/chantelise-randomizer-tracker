@@ -2,6 +2,7 @@
 	"world_map": {
 		"type": "map",
 		"maps": ["world_map"],
-		"orientation": "horizontal"
+		"orientation": "horizontal",
+		"scale": 2
 	}
 }

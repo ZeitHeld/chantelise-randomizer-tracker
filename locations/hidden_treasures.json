@@ -40,8 +40,8 @@
         "map_locations": [
             {
                 "map": "world_map",
-                "x": 275,
-                "y": 320
+                "x": 290,
+                "y": 335
             }
         ]
     }

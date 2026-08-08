@@ -14,6 +14,9 @@
 		"items_only": {
 			"display_name": "Items Only",
 			"flags": ["ap"]
+		},
+		"bt-ce-tracker": {
+			"display_name": "TOOIE TEST"
 		}
 	}
 }
