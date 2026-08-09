@@ -7,16 +7,13 @@
 	"game_name": "Chantelise - A Tale of Two Sisters",
 	"author": "Held_der_Zeit",
 	"variants": {
-		"tracker": {
+		"map": {
 			"display_name": "Item & Map Tracker",
 			"flags": ["ap"]
 		},
 		"items_only": {
 			"display_name": "Items Only",
 			"flags": ["ap"]
-		},
-		"bt-ce-tracker": {
-			"display_name": "TOOIE TEST"
 		}
 	}
 }

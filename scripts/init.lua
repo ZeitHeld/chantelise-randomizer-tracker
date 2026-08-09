@@ -1,47 +1,31 @@
-local item_list = {"dungeons", "stages", "events", "equipment", "fermin", "junk"}
-local map_list = {"world"}
-local loc_list = {"story_events", "hidden_treasures"}
-local layout_list = {"items_only", "items_map", "broadcast", "maps", "tracker"}
-local layout_core_list = {"broadcast", "item_grids"}
-
 local variant = Tracker.ActiveVariantUID
-print(variant)
+print("SELECTED VARIANT: "..variant)
 
-Tracker:AddItems("items/bt-items.json")
-Tracker:AddLayouts("layouts/bt-items.json")
-Tracker:AddLayouts("layouts/bt-ce-tracker.json")
 
--- ITEMS
-for i, item in ipairs(item_list) do
-    Tracker:AddItems("items/"..item..".json")
+
+Tracker:AddItems("items/dungeons.json")
+Tracker:AddItems("items/equipment.json")
+Tracker:AddItems("items/events.json")
+Tracker:AddItems("items/fermin.json")
+Tracker:AddItems("items/junk.json")
+Tracker:AddItems("items/stages.json")
+
+
+
+if variant == "map" then
+    Tracker:AddMaps("maps/world.json")
+
+    Tracker:AddLocations("locations/dungeons.json")
+    Tracker:AddLocations("locations/story_events.json")
+    Tracker:AddLocations("locations/hidden_treasures.json")
+    
+elseif variant == "items_only" then
+    --
 end
+Tracker:AddLayouts("layouts/variants/"..variant..".json")
 
--- MAPS
-for i, map in ipairs(map_list) do
-    Tracker:AddMaps("maps/"..map..".json")
-end
-
--- LOCATIONS
-for i, location in ipairs(loc_list) do
-    Tracker:AddLocations("locations/"..location..".json")
-end
-
--- LAYOUTS
-for i, layout in ipairs(layout_core_list) do
-    Tracker:AddLayouts("layouts/"..layout..".json")
-end
-
--- if variant == "items_only" then
-    Tracker:AddLayouts("layouts/"..variant..".json")
--- else
-    -- for i, layout in ipairs(layout_slim_list) do
-    --     Tracker:AddLayouts("layouts/"..layout..".json")
-    -- end
--- end
-if variant ~= "items_only" then
-    Tracker:AddLayouts("layouts/maps.json")
-end
 
 if PopVersion and PopVersion >= "0.18.0" then
+    print("Poptracker Autotracking - INCLUDED")
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end

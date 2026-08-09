@@ -91,5 +91,83 @@
         "type": "toggle",
         "img": "images/stages/tr1.png",
         "codes": "tr1,terran1"
+    },
+    {
+        "name": "TR 2 Stage",
+        "type": "toggle",
+        "img": "images/stages/tr2.png",
+        "codes": "tr2,terran2"
+    },
+    {
+        "name": "TR 3 Stage",
+        "type": "toggle",
+        "img": "images/stages/tr3.png",
+        "codes": "tr3,terran3"
+    },
+    {
+        "name": "TR 4 Stage",
+        "type": "toggle",
+        "img": "images/stages/tr4.png",
+        "codes": "tr4,terran4"
+    },
+    {
+        "name": "TR 5 Stage",
+        "type": "toggle",
+        "img": "images/stages/tr5.png",
+        "codes": "tr5,terran5"
+    },
+    {
+        "name": "TR 6 Stage",
+        "type": "toggle",
+        "img": "images/stages/tr6.png",
+        "codes": "tr6,terran6,terranboss"
+    },
+    {
+        "name": "TR 7 Stage",
+        "type": "toggle",
+        "img": "images/stages/tr7.png",
+        "codes": "tr7,terran7,terranbonus"
+    },
+    {
+        "name": "IR 1 Stage",
+        "type": "toggle",
+        "img": "images/stages/tr1.png",
+        "codes": "tr1,terran1"
+    },
+    {
+        "name": "AR 1 Stage",
+        "type": "toggle",
+        "img": "images/stages/tr1.png",
+        "codes": "tr1,terran1"
+    },
+    {
+        "name": "ZR 1 Stage",
+        "type": "toggle",
+        "img": "images/stages/tr1.png",
+        "codes": "tr1,terran1"
+    },
+    {
+        "name": "SP 1 Stage",
+        "type": "toggle",
+        "img": "images/stages/tr1.png",
+        "codes": "tr1,terran1"
+    },
+    {
+        "name": "FF 1 Stage",
+        "type": "toggle",
+        "img": "images/stages/ff1.png",
+        "codes": "ff1,forest1"
+    },
+    {
+        "name": "FF 2 Stage",
+        "type": "toggle",
+        "img": "images/stages/ff2.png",
+        "codes": "ff2,forest2"
+    },
+    {
+        "name": "Survival Dungeon Floor 10",
+        "type": "toggle",
+        "img": "images/stages/sd10.png",
+        "codes": "sd10,survival10"
     }
 ]

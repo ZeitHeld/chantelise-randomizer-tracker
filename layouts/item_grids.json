@@ -2,7 +2,7 @@
 	"items_dungeons": {
         "type": "itemgrid",
         "item_size": 32,
-        "item_margin": "5, 5",
+        "item_margin": "5",
         "rows": [
             [
                 "dungeon_terran", "dungeon_aquan", "dungeon_ignan", "dungeon_zephyran"
@@ -11,5 +11,26 @@
                 "dungeon_palace", "dungeon_forest", "dungeon_survival"
             ]
         ]
-	}
+	},
+    "items_stages": {
+        "type": "itemgrid",
+        "item_size": 32,
+        "item_margin": "5",
+        "rows": [
+            [
+                "stage_tr1", "stage_tr2", "stage_tr3", "stage_tr4"
+            ],
+            [
+                "stage_ir1", "stage_ir2", "stage_ir3"
+            ]
+        ]
+	},
+    "items_abilities": {
+        "type": "itemgrid",
+        "item_size": 32,
+        "item_margin": "5",
+        "rows": [
+            ["spellupgrade", "equip_slots"]
+        ]
+    }
 }

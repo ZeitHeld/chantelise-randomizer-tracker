@@ -1,0 +1,42 @@
+{
+	"tracker_default": {
+		"type": "container",
+		"content": [
+			{
+				"type": "dock",
+				"content": [
+					{
+						"type": "layout",
+						"key": "item_dungeons",
+						"dock": "left"
+					},
+					{
+						"type": "map",
+						"key": "maps",
+						"dock": "right"
+					},
+					{
+						"type": "group",
+						"max_height": 306,
+						"header": "Pinned Locations",
+						"dock": "bottom",
+						"content": {
+							"type": "scroll",
+							"horizontal_scrollbar_visibility": "disabled",
+							"vertical_scrollbar_visibility": "hidden",
+							"content": {
+								"type": "recentpins",
+								"style": "wrap",
+								"h_alignment": "left",
+								"v_alignment": "top",
+								"orientation": "horizontal",
+								"scale": 1.15,
+								"compact": true
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}
