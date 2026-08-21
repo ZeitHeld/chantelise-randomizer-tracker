@@ -7,7 +7,7 @@
 				"content": [
 					{
 						"type": "layout",
-						"key": "item_dungeons",
+						"key": "items_dungeons",
 						"dock": "left"
 					},
 					{
