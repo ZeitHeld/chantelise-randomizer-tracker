@@ -32,5 +32,18 @@
         "rows": [
             ["spellupgrade", "equip_slots"]
         ]
+    },
+    "items_all": {
+        "type": "container",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_size": 32,
+                "item_margin": "5",
+                "rows": [
+                    ["spellupgrade", "equip_slots"]
+                ]
+            }
+        ]
     }
 }

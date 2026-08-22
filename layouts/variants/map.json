@@ -7,7 +7,7 @@
 				"content": [
 					{
 						"type": "layout",
-						"key": "items_dungeons",
+						"key": "item_grids",
 						"dock": "left"
 					},
 					{
@@ -34,6 +34,37 @@
 								"compact": true
 							}
 						}
+					}
+				]
+			},
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"content": [
+					{
+						"type": "item",
+						"item": "boss_flag_aquan",
+						"width": 64
+					},
+					{
+						"type": "item",
+						"item": "boss_flag_terran",
+						"width": 64
+					},
+					{
+						"type": "item",
+						"item": "equip_slots",
+						"width": 64
+					},
+					{
+						"type": "item",
+						"item": "spellupgrade",
+						"width": 64
+					},
+					{
+						"type": "item",
+						"item": "dungeon_survival",
+						"width": 128
 					}
 				]
 			}

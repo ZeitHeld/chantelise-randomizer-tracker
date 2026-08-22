@@ -6,11 +6,32 @@
 				"type": "dock",
 				"content": [
 					{
-						"type": "layout",
+						"type": "itemgrid",
 						"key": "items_dungeons",
+						"dock": "left"
+					},
+					{
+						"type": "layout",
+						"key": "item_grids",
 						"dock": "left"
 					}
 				]
+			},
+			{
+				"type": "itemgrid",
+				"key": "items_dungeons"
+			},
+			{
+				"type": "itemgrid",
+				"key": "items_stages"
+			},
+			{
+				"type": "itemgrid",
+				"key": "items_abilities"
+			},
+			{
+				"type": "itemgrid",
+				"key": "items_all"
 			}
 		]
 	}

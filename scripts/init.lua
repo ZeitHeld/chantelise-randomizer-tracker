@@ -3,6 +3,7 @@ print("SELECTED VARIANT: "..variant)
 
 
 
+Tracker:AddItems("items/abilities.json")
 Tracker:AddItems("items/dungeons.json")
 Tracker:AddItems("items/equipment.json")
 Tracker:AddItems("items/events.json")
@@ -24,7 +25,7 @@ elseif variant == "items_only" then
     --Tracker:AddLayouts("layouts/variants/item_grids.json")
 end
 Tracker:AddLayouts("layouts/variants/"..variant..".json")
-Tracker:AddLayouts("layouts/variants/item_grids.json")
+Tracker:AddLayouts("layouts/item_grids.json")
 
 
 if PopVersion and PopVersion >= "0.18.0" then
