@@ -3,31 +3,31 @@
         "name": "Terran Ruins",
         "type": "toggle",
         "img": "images/items/dungeon/terran.png",
-        "codes": "dungeon_terran"
+        "codes": "dungeon_terran,d_tr"
     },
     {
         "name": "Ignan Ruins",
         "type": "toggle",
         "img": "images/items/dungeon/ignan.png",
-        "codes": "dungeon_ignan"
+        "codes": "dungeon_ignan,d_ir"
     },
     {
         "name": "Aquan Ruins",
         "type": "toggle",
         "img": "images/items/dungeon/aquan.png",
-        "codes": "dungeon_aquan"
+        "codes": "dungeon_aquan,d_ar"
     },
     {
         "name": "Zephyran Ruins",
         "type": "toggle",
         "img": "images/items/dungeon/zephyran.png",
-        "codes": "dungeon_zephyran"
+        "codes": "dungeon_zephyran,d_zr"
     },
     {
         "name": "Sealed Palace",
         "type": "toggle",
         "img": "images/items/dungeon/palace.png",
-        "codes": "dungeon_palace"
+        "codes": "dungeon_palace,d_sp"
     },
     {
         "name": "Familiar Forest",
@@ -49,28 +49,28 @@
         "stages": [
             {
                 "img": "images/items/dungeon/terran.png",
-                "codes": "prog_dungeons:0",
+                "codes": "prog_dungeons:0,d_prog",
                 "img_mods": "grayscale"
             },
             {
                 "img": "images/items/dungeon/terran.png",
-                "codes": "dungeon_terran"
+                "codes": "prog_dungeons:1,dungeon_terran"
             },
             {
                 "img": "images/items/dungeon/ignan.png",
-                "codes": "dungeon_ignan"
+                "codes": "prog_dungeons:2,dungeon_ignan"
             },
             {
                 "img": "images/items/dungeon/aquan.png",
-                "codes": "dungeon_aquan"
+                "codes": "prog_dungeons:3,dungeon_aquan"
             },
             {
                 "img": "images/items/dungeon/zephyran.png",
-                "codes": "dungeon_zephyran"
+                "codes": "prog_dungeons:4,dungeon_zephyran"
             },
             {
                 "img": "images/items/dungeon/palace.png",
-                "codes": "dungeon_palace"
+                "codes": "prog_dungeons:5,dungeon_palace"
             }
         ]
     }
