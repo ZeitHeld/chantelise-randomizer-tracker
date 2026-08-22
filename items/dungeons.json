@@ -42,5 +42,36 @@
         "type": "toggle",
         "img": "images/items/dungeon/survival.png",
         "codes": "dungeon_survival"
+    },
+    {
+        "name": "Progressive Dungeon",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/items/dungeon/terran.png",
+                "codes": "prog_dungeons:0",
+                "img_mods": "grayscale"
+            },
+            {
+                "img": "images/items/dungeon/terran.png",
+                "codes": "dungeon_terran"
+            },
+            {
+                "img": "images/items/dungeon/ignan.png",
+                "codes": "dungeon_ignan"
+            },
+            {
+                "img": "images/items/dungeon/aquan.png",
+                "codes": "dungeon_aquan"
+            },
+            {
+                "img": "images/items/dungeon/zephyran.png",
+                "codes": "dungeon_zephyran"
+            },
+            {
+                "img": "images/items/dungeon/palace.png",
+                "codes": "dungeon_palace"
+            }
+        ]
     }
 ]

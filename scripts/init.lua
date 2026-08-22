@@ -21,8 +21,10 @@ if variant == "map" then
     
 elseif variant == "items_only" then
     --
+    --Tracker:AddLayouts("layouts/variants/item_grids.json")
 end
 Tracker:AddLayouts("layouts/variants/"..variant..".json")
+Tracker:AddLayouts("layouts/variants/item_grids.json")
 
 
 if PopVersion and PopVersion >= "0.18.0" then
