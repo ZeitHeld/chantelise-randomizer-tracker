@@ -42,29 +42,102 @@
 				"orientation": "horizontal",
 				"content": [
 					{
-						"type": "item",
-						"item": "boss_flag_aquan",
-						"width": 64
+						"type": "array",
+						"orientation": "vertical",
+						"content": [
+							{
+								"type": "item",
+								"item": "dungeon_terran",
+								"width": 128
+							},
+							{
+								"type": "item",
+								"item": "dungeon_ignan",
+								"width": 128
+							},
+							{
+								"type": "item",
+								"item": "dungeon_aquan",
+								"width": 128
+							},
+							{
+								"type": "item",
+								"item": "dungeon_zephyran",
+								"width": 128
+							},
+							{
+								"type": "item",
+								"item": "dungeon_palace",
+								"width": 128
+							},
+							{
+								"type": "item",
+								"item": "dungeon_forest",
+								"width": 128
+							},
+							{
+								"type": "item",
+								"item": "dungeon_survival",
+								"width": 128
+							}
+						]
 					},
 					{
-						"type": "item",
-						"item": "boss_flag_terran",
-						"width": 64
+						"type": "array",
+						"orientation": "vertical",
+						"content": [
+							{
+								"type": "item",
+								"item": "equipment_slots",
+								"width": 64
+							},
+							{
+								"type": "item",
+								"item": "spellupgrade",
+								"width": 64
+							},
+							{
+								"type": "item",
+								"item": "speedboots",
+								"width": 64
+							},
+							{
+								"type": "item",
+								"item": "hoverboots",
+								"width": 64
+							},
+							{
+								"type": "item",
+								"item": "old_rod",
+								"width": 64
+							}
+						]
 					},
 					{
-						"type": "item",
-						"item": "equip_slots",
-						"width": 64
-					},
-					{
-						"type": "item",
-						"item": "spellupgrade",
-						"width": 64
-					},
-					{
-						"type": "item",
-						"item": "dungeon_survival",
-						"width": 128
+						"type": "array",
+						"orientation": "vertical",
+						"content": [
+							{
+								"type": "item",
+								"item": "glove",
+								"width": 64
+							},
+							{
+								"type": "item",
+								"item": "shield",
+								"width": 64
+							},
+							{
+								"type": "item",
+								"item": "staff",
+								"width": 64
+							},
+							{
+								"type": "item",
+								"item": "charm",
+								"width": 64
+							}
+						]
 					}
 				]
 			}

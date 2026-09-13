@@ -2,16 +2,11 @@
     {
         "name": "Spell Upgrade",
         "type": "progressive",
-        "initial_stage_idx": 1,
+        "initial_stage_idx": 0,
         "stages": [
             {
                 "img": "images/items/ability/magic_1.png",
-                "codes": "spellupgrade,1gemspells,tier1,spellstier1,spellt1,t1spells",
-                "img_mods": "grayscale"
-            },
-            {
-                "img": "images/items/ability/magic_1.png",
-                "codes": "2gemspells,tier2,spellstier2,spellt2,t2spells"
+                "codes": "spellupgrade,2gemspells,tier2,spellstier2,spellt2,t2spells"
             },
             {
                 "img": "images/items/ability/magic_2.png",
@@ -28,6 +23,11 @@
         "type": "progressive",
         "initial_stage_idx": 1,
         "stages": [
+            {
+                "img": "images/two.png",
+                "codes": "equipment_slots,equip_slots:1",
+                "img_mods": "grayscale"
+            },
             {
                 "img": "images/one.png",
                 "codes": "equip_slots:2",

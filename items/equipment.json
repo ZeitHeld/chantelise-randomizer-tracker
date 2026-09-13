@@ -4,27 +4,27 @@
 		"type": "progressive",
 		"stages": [
 			{
-				"img": "items/equipment/gloves/glove1.png",
-				"codes": "glove, glove_level:1"
+				"img": "images/items/equipment/gloves/glove1.png",
+				"codes": "glove,glove_level:1"
 			},
 			{
-				"img": "items/equipment/gloves/glove2.png",
+				"img": "images/items/equipment/gloves/glove2.png",
 				"codes": "glove_level:2"
 			},
 			{
-				"img": "items/equipment/gloves/glove3.png",
+				"img": "images/items/equipment/gloves/glove3.png",
 				"codes": "glove_level:3"
 			},
 			{
-				"img": "items/equipment/gloves/glove4.png",
+				"img": "images/items/equipment/gloves/glove4.png",
 				"codes": "glove_level:4"
 			},
 			{
-				"img": "items/equipment/gloves/glove5.png",
+				"img": "images/items/equipment/gloves/glove5.png",
 				"codes": "glove_level:5"
 			},
 			{
-				"img": "items/equipment/gloves/glove6.png",
+				"img": "images/items/equipment/gloves/glove6.png",
 				"codes": "glove_level:6"
 			}
 		]
@@ -34,27 +34,27 @@
 		"type": "progressive",
 		"stages": [
 			{
-				"img": "items/equipment/shields/shield1.png",
-				"codes": "shield, shield_level:1"
+				"img": "images/items/equipment/shields/shield1.png",
+				"codes": "shield,shield_level:1"
 			},
 			{
-				"img": "items/equipment/shields/shield2.png",
+				"img": "images/items/equipment/shields/shield2.png",
 				"codes": "shield_level:2"
 			},
 			{
-				"img": "items/equipment/shields/shield3.png",
+				"img": "images/items/equipment/shields/shield3.png",
 				"codes": "shield_level:3"
 			},
 			{
-				"img": "items/equipment/shields/shield4.png",
+				"img": "images/items/equipment/shields/shield4.png",
 				"codes": "shield_level:4"
 			},
 			{
-				"img": "items/equipment/shields/shield5.png",
+				"img": "images/items/equipment/shields/shield5.png",
 				"codes": "shield_level:5"
 			},
 			{
-				"img": "items/equipment/shields/shield6.png",
+				"img": "images/items/equipment/shields/shield6.png",
 				"codes": "shield_level:6"
 			}
 		]
@@ -64,27 +64,27 @@
 		"type": "progressive",
 		"stages": [
 			{
-				"img": "items/equipment/staves/staff1.png",
-				"codes": "staff, staff_level:1"
+				"img": "images/items/equipment/staves/staff1.png",
+				"codes": "staff,staff_level:1"
 			},
 			{
-				"img": "items/equipment/staves/staff2.png",
+				"img": "images/items/equipment/staves/staff2.png",
 				"codes": "staff_level:2"
 			},
 			{
-				"img": "items/equipment/staves/staff3.png",
+				"img": "images/items/equipment/staves/staff3.png",
 				"codes": "staff_level:3"
 			},
 			{
-				"img": "items/equipment/staves/staff4.png",
+				"img": "images/items/equipment/staves/staff4.png",
 				"codes": "staff_level:4"
 			},
 			{
-				"img": "items/equipment/staves/staff5.png",
+				"img": "images/items/equipment/staves/staff5.png",
 				"codes": "staff_level:5"
 			},
 			{
-				"img": "items/equipment/staves/staff6.png",
+				"img": "images/items/equipment/staves/staff6.png",
 				"codes": "staff_level:6"
 			}
 		]
@@ -94,27 +94,27 @@
 		"type": "progressive",
 		"stages": [
 			{
-				"img": "items/equipment/charms/charm1.png",
-				"codes": "charm, charm_level:1"
+				"img": "images/items/equipment/charms/charm1.png",
+				"codes": "charm,charm_level:1"
 			},
 			{
-				"img": "items/equipment/charms/charm2.png",
+				"img": "images/items/equipment/charms/charm2.png",
 				"codes": "charm_level:2"
 			},
 			{
-				"img": "items/equipment/charms/charm3.png",
+				"img": "images/items/equipment/charms/charm3.png",
 				"codes": "charm_level:3"
 			},
 			{
-				"img": "items/equipment/charms/charm4.png",
+				"img": "images/items/equipment/charms/charm4.png",
 				"codes": "charm_level:4"
 			},
 			{
-				"img": "items/equipment/charms/charm5.png",
+				"img": "images/items/equipment/charms/charm5.png",
 				"codes": "charm_level:5"
 			},
 			{
-				"img": "items/equipment/charms/charm6.png",
+				"img": "images/items/equipment/charms/charm6.png",
 				"codes": "charm_level:6"
 			}
 		]
@@ -122,37 +122,43 @@
 	{
 		"name": "Leather Gloves",
 		"type": "consumable",
-		"img": "items/equipment/gloves/glove1.png",
+		"img": "images/items/equipment/gloves/glove1.png",
 		"codes": "gloves"
 	},
 	{
 		"name": "Speedboots",
 		"type": "toggle",
-		"img": "items/equipment/misc/boots1.png",
+		"img": "images/items/equipment/misc/boots1.png",
 		"codes": "speedboots"
+	},
+	{
+		"name": "Hoverboots",
+		"type": "toggle",
+		"img": "images/items/equipment/misc/boots2.png",
+		"codes": "hoverboots"
 	},
 	{
 		"name": "Old Rod",
 		"type": "toggle",
-		"img": "items/equipment/misc/fishingrod1.png",
-		"codes": "fishing_rod"
+		"img": "images/items/equipment/misc/fishingrod1.png",
+		"codes": "fishing_rod,old_rod"
 	},
 	{
 		"name": "Blam Fisher RX",
 		"type": "toggle",
-		"img": "items/equipment/misc/fishingrod2.png",
-		"codes": "fishing_rod"
+		"img": "images/items/equipment/misc/fishingrod2.png",
+		"codes": "fishing_rod,blam_rod,blam_fisher"
 	},
 	{
 		"name": "Ancient Rod",
 		"type": "toggle",
-		"img": "items/equipment/misc/fishingrod3.png",
-		"codes": "fishing_rod"
+		"img": "images/items/equipment/misc/fishingrod3.png",
+		"codes": "fishing_rod,ancient_rod"
 	},
 	{
 		"name": "Huge Rod",
 		"type": "toggle",
-		"img": "items/equipment/misc/fishingrod4.png",
-		"codes": "fishing_rod"
+		"img": "images/items/equipment/misc/fishingrod4.png",
+		"codes": "fishing_rod,huge_rod"
 	}
 ]
