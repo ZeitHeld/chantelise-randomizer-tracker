@@ -129,13 +129,13 @@
 		"name": "Speedboots",
 		"type": "toggle",
 		"img": "images/items/equipment/misc/boots1.png",
-		"codes": "speedboots"
+		"codes": "speedboots, speed_boots"
 	},
 	{
-		"name": "Hoverboots",
+		"name": "Winged Boots",
 		"type": "toggle",
 		"img": "images/items/equipment/misc/boots2.png",
-		"codes": "hoverboots"
+		"codes": "winged_boots, wing_boots, wingboots, wingedboots"
 	},
 	{
 		"name": "Old Rod",
